@@ -1,4 +1,4 @@
-# simpleNeuralNetwrok
+# Simple Neural Netwrok Library
 
 This is a simple neural network libary with basic feature like back-propogation, saving, loading, mutation, corssover and inheritance.
 This file is just for my use.
