@@ -3,6 +3,8 @@ import numpy as np
 import json
 
 
+#basic funcyions
+
 def sigmoid(x):
     return 1/(1+np.exp(-x))
 def d_sigmoid(x):
@@ -10,7 +12,6 @@ def d_sigmoid(x):
 
 def tanH(x):
     return (np.exp(x)-np.exp(-x))/(np.exp(x)+np.exp(-x))
-
 def d_tanh(x):
     return 1-(tanH(x)**2)
 
