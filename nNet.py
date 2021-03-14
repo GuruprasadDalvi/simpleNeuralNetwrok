@@ -166,29 +166,4 @@ class nNetwork:
                 child.weights[i]=self.weights[i]
             else:
                 child.weights[i]=partner.weights[i]
-        child.mutate()
         return child
-
-
-
-
-# inputs=np.array([50,28,95,69,10],dtype=np.float)
-# expected_outputs=np.array([-13,50,-26,34],dtype=np.float)
-# inputs=inputs/1000
-# expected_outputs=expected_outputs/1000
-
-
-# net=nNetwork([5,16,4],activeFun="tanh")
-# net.feedforward(inputs)
-# net.back_prop(expected_outputs)
-# c=cost_function(expected_outputs,net.activisions[-1])
-# print(c)
-# for i in range(350):
-#     net.feedforward(inputs)
-#     net.back_prop(expected_outputs)
-#     c=cost_function(expected_outputs,net.activisions[-1])
-#     #print(c)
-
-# net.predict(inputs)
-# print(c)
-    
